@@ -1,0 +1,26 @@
+.wrapper {
+    padding: 10px;
+    box-shadow: 0 2px 4px black;
+}
+
+.list {
+    display: flex;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.link{
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+.active {
+    background-color: bisque;
+}
+
+.link:hover {
+    background-color: rgba(255, 228, 196, 0.493);
+}
