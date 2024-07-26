@@ -1,0 +1,51 @@
+.wrapper {
+    padding: 20px;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+}
+
+.filmInfo {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px black;
+}
+
+.filmPoster {
+    height: 500px;
+}
+
+.filDescription {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.descriptionTitle {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.categoryTitle {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.genres {
+    display: flex;
+    gap: 10px;
+}
+
+.aditional {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px black;
+}

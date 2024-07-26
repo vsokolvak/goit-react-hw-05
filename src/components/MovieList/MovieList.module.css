@@ -1,0 +1,26 @@
+.wrapper {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background-color: rgba(250, 235, 215, 0.795);
+}
+
+.linkText {
+    font-size: 30px;
+}

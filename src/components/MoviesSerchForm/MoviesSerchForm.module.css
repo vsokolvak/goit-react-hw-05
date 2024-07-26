@@ -1,0 +1,35 @@
+.wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.input {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.input:focus {
+    border-color: blue;
+}
+
+.btnSerch {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
