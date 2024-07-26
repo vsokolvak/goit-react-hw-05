@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import style from "./FilmInfo.module.css";
+import { useRef } from "react";
 
 function FilmInfo({filmInfo}) {
   const {
@@ -10,11 +11,11 @@ function FilmInfo({filmInfo}) {
     genres,
   } = filmInfo;
 
-  const location = useLocation()
+  const location = useRef(useLocation());
 
   return (
     <div className={style.wrapper}>
-      <Link to={location.state ?? "/movies"} className={style.btn}>
+      <Link to={location.current.state ?? "/movies"} className={style.btn}>
         GO BACK
       </Link>
       <div className={style.filmInfo}>

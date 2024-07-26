@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import style from "./HomePage.module.css";
 import { getTrendingMovie } from "../../axios/axios";
 import { useEffect, useState } from "react";
